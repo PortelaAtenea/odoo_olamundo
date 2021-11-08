@@ -8,4 +8,6 @@ class olamundo(models.Model):
     _description = 'odoo_olamundo.olamundo'
 
     name = fields.Char(string="Ola Mundo")
+    campo = fields.Text(String='Campo 1')
+    autorizado = fields.Boolean(string="¿Autorizado?", default=True)
 
